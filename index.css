@@ -1,0 +1,37 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+#search-box {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+#notification {
+  color: red;
+  margin-top: 10px;
+}
+
+#results {
+  margin-top: 10px;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+.country-item {
+  cursor: pointer;
+  padding: 5px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.country-item:hover {
+  background-color: #f0f0f0;
+}
+
